@@ -1,0 +1,17 @@
+[2025-06-26 19:59:04,858] INFO: Main execution started.
+[2025-06-26 19:59:04,859] INFO: Loaded configuration from C:\Users\itsar\Music\Book Recommender System\config\config.yaml
+[2025-06-26 19:59:04,859] INFO: 
+
+========= Training Pipeline Started =========
+
+[2025-06-26 19:59:04,859] ERROR: Training pipeline failed.
+[2025-06-26 19:59:04,859] ERROR: An error occurred in main: Error: Error: Error: 'str' object has no attribute 'get'
+File: C:\Users\itsar\Music\Book Recommender System\book_recommender\configuration\configuration.py
+Line: 23
+Folder: C:\Users\itsar\Music\Book Recommender System\book_recommender\configuration
+File: C:\Users\itsar\Music\Book Recommender System\book_recommender\pipeline\training_pipeline.py
+Line: 20
+Folder: C:\Users\itsar\Music\Book Recommender System\book_recommender\pipeline
+File: C:\Users\itsar\Music\Book Recommender System\book_recommender\pipeline\training_pipeline.py
+Line: 33
+Folder: C:\Users\itsar\Music\Book Recommender System\book_recommender\pipeline

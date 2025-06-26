@@ -1,8 +1,7 @@
 artifacts_config:
-  artifacts_dir:artifacts
+  artifacts_dir: artifacts
 
 data_ingestion_config:
-  dataset_download_url:
-  dataset_dirL dataset
-  ingested_dir: ingested_data
+  dataset_download_url: https://github.com/idAryan/Book-Recommender-System/raw/refs/heads/master/archive.zip
   raw_data_dir: raw_data
+  ingested_dir: ingested_data

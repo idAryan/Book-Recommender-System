@@ -1,0 +1,17 @@
+[2025-06-26 20:00:18,030] INFO: Main execution started.
+[2025-06-26 20:00:18,044] INFO: Loaded configuration from C:\Users\itsar\Music\Book Recommender System\config\config.yaml
+[2025-06-26 20:00:18,044] INFO: 
+
+========= Training Pipeline Started =========
+
+[2025-06-26 20:00:18,044] INFO: Data Ingestion Config: DatasetConfig(dataset_download_url='https://github.com/idAryan/Book-Recommender-System/raw/refs/heads/master/archive.zip', raw_data_dir='artifacts\\raw_data', ingested_dir='artifacts\\ingested_data')
+[2025-06-26 20:00:18,044] INFO: Data ingestion started.
+[2025-06-26 20:00:29,445] INFO: Dataset downloaded at: artifacts\raw_data\dataset.zip
+[2025-06-26 20:00:29,876] INFO: Extracted zip file: artifacts\raw_data\dataset.zip to: artifacts\raw_data
+[2025-06-26 20:00:29,893] INFO: Copied dataset.zip to ingested directory
+[2025-06-26 20:00:29,893] INFO: Data ingestion completed successfully.
+[2025-06-26 20:00:29,893] INFO: 
+
+========= Training Pipeline Completed Successfully =========
+
+[2025-06-26 20:00:29,893] INFO: Main execution finished.

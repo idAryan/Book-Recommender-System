@@ -2,7 +2,7 @@ from book_recommender.components.data_ingestion import DataIngestion
 import sys
 from book_recommender.logger.log import logging
 from book_recommender.exception.exception_handler import AppException
-from book_recommender.config.configuration import Configuration
+from book_recommender.configuration.configuration import Configuration
 from book_recommender.components.data_ingestion import DataIngestion
 
 class TrainPipeline:
