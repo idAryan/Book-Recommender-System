@@ -1,2 +1,4 @@
-PyYAML
 streamlit
+scikit-learn
+pandas
+numpy

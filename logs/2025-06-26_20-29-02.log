@@ -1,0 +1,25 @@
+[2025-06-26 20:29:03,504] INFO: Main execution started.
+[2025-06-26 20:29:03,505] INFO: Loaded configuration from C:\Users\itsar\Music\Book Recommender System\config\config.yaml
+[2025-06-26 20:29:03,505] INFO: 
+
+\U0001f680 ========= Training Pipeline Started =========
+
+[2025-06-26 20:29:03,505] INFO: \U0001f69a Starting Data Ingestion...
+[2025-06-26 20:29:03,505] INFO: Data ingestion started.
+[2025-06-26 20:29:11,511] INFO: Dataset downloaded at: artifacts\raw_data\dataset.zip
+[2025-06-26 20:29:11,930] INFO: Extracted zip file: artifacts\raw_data\dataset.zip to: artifacts\raw_data
+[2025-06-26 20:29:11,949] INFO: Copied dataset.zip to ingested directory
+[2025-06-26 20:29:11,949] INFO: Data ingestion completed successfully.
+[2025-06-26 20:29:11,949] INFO: \u2705 Data Ingestion completed.
+[2025-06-26 20:29:11,949] INFO: \U0001f50d Starting Data Validation...
+[2025-06-26 20:29:11,949] INFO: Initiating full data validation process...
+[2025-06-26 20:29:11,950] WARNING: Missing files: ['books.csv', 'ratings.csv']
+[2025-06-26 20:29:11,950] ERROR: Data validation failed due to missing files.
+[2025-06-26 20:29:11,950] ERROR: \u274c Training pipeline failed.
+[2025-06-26 20:29:11,950] ERROR: An error occurred in main: Error: Error: \u274c Data validation failed.
+File: C:\Users\itsar\Music\Book Recommender System\book_recommender\pipeline\training_pipeline.py
+Line: 44
+Folder: C:\Users\itsar\Music\Book Recommender System\book_recommender\pipeline
+File: C:\Users\itsar\Music\Book Recommender System\book_recommender\pipeline\training_pipeline.py
+Line: 58
+Folder: C:\Users\itsar\Music\Book Recommender System\book_recommender\pipeline
