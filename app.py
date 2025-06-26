@@ -28,9 +28,7 @@ if st.button("Recommend"):
             idx = np.where(final_rating['title'] == recommended_title)[0][0]
             image_url = final_rating.iloc[idx]['image_url']
 
-            st.markdown('<style>html,body,[class^="css"]{background-color:#121212!important;color:#e0e0e0!important}.stApp{background-color:#121212!important}h1,h2,h3,h4,h5,h6,p,div,label{color:#e0e0e0!important}.css-1cpxqw2,.css-ffhzg2{background-color:#1e1e1e!important}</style>', unsafe_allow_html=True)
-
-
+            st.markdown(f"**{recommended_title}**")
             st.image(image_url, width=120)
             st.markdown("---")
 
